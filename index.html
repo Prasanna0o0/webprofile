@@ -1,0 +1,613 @@
+<!--
+  Greetings!
+
+  This delightful template has been meticulously crafted and brought to life by Syed Mohsin. It is generously shared with the world, inviting you to unleash your creativity and tailor it to your heart's content.
+-->
+
+
+<!--
+  Embrace the guidance inscribed within the comments below to fashion an awe-inspiring portfolio of your own.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Read and update content attributes accordingly  -->
+
+  <meta name="description"
+    content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations." />
+
+  <!-- Google / Search Engine Tags -->
+  <meta itemprop="name" content="Syed Mohsin's Portfolio">
+  <meta itemprop="description"
+    content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+  <!-- Reference screenshot of updated site's header in place of content -->
+  <meta itemprop="image" content="assets/images/sharing-card.png">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://ossportfolio.netlify.app">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Syed Mohsin's Portfolio">
+  <meta property="og:description"
+    content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+  <!-- Reference screenshot of updated site's header in content -->
+  <meta property="og:image" content="assets/images/sharing-card.png">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Syed Mohsin's Portfolio">
+  <meta name="twitter:description"
+    content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+  <!-- Reference screenshot of updated site's header in content -->
+  <meta name="twitter:image" content="assets/images/sharing-card.png">
+
+
+  <!-- Update favicon href attribute with image of yourself -->
+  <link rel="shortcut icon" href="assets/images/1677737707672-removebg-preview.png" type="image/png" />
+
+  <!-- Preloading fonts for better performance -->
+
+  <link rel="preload" href="assets/fonts/Mona-Sans.woff2" as="font" type="font/woff2" crossorigin />
+
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+
+  <!-- Your name here -->
+  <title>Prasanna Portfolio</title>
+  <style>
+    /* details>summary {
+      padding: 4px;
+      width: 200px;
+      color: black;
+      background-color: transparent;
+      border: none;
+      box-shadow: 1px 1px 2px transparent;
+      cursor: pointer;
+    }
+
+    details>p {
+      background-color: transparent;
+      padding: 4px;
+      margin: 0;
+      box-shadow: 1px 1px 2px transparent;
+    }
+
+    ul {
+      list-style-type: square;
+      margin: 0;
+      padding: 0;
+    }
+
+    .pragraph {
+      white-space: nowrap;
+    } */
+  </style>
+</head>
+
+<body>
+
+  <script>
+    const theme = localStorage.getItem("theme") || "dark";
+    document.body.classList.add(theme);
+  </script>
+
+  <header class="header">
+
+    <div class="menu-btn-container">
+      <div class="container">
+        <button type="button" class="menu-btn">menu</button>
+
+
+      </div>
+    </div>
+
+    <nav class="nav hidden">
+      <ol class="nav-items">
+        <li class="nav-item"><a href="#">Home</a></li>
+        <li class="nav-item"><a href="#work">My Work</a></li>
+        <li class="nav-item"><a href="#blog">See Blog</a></li>
+        <li class="nav-item"><a href="#skills">My Skills</a></li>
+        <li class="nav-item">
+          <a href="#contact" data-focused="last-focused">Contact</a>
+        </li>
+      </ol>
+    </nav>
+
+    <div class="container">
+      <div class="header-textbox">
+        <!-- Replace with your name and job title -->
+        <!-- <img src="assets/images/1677737707672-removebg-preview.png" style="border-radius: 50%;width: 275px; position: relative;left:-25px;bottom: 20px;" alt="Avatar"> -->
+        <img src="assets/images/1677737707672-removebg-preview.png" class="avatar-img" alt="Avatar">
+
+        <h1 class="h1">
+          <span class="typed-out"> Hi, I'm Prasanna</span>
+          <span>🥷Software Engineer</span>
+        </h1>
+
+        <!-- Add a small introductory paragraph about yourself -->
+        <p class="header-text" style="text-align:justify;width: 95%;">
+          Passionate about crafting innovative digital experiences at the intersection of technology and creativity. With a solid foundation in computer science through my B.Tech degree, I am an experienced Software Engineer specializing in React, Node, and TypeScript. I am adept at building responsive web applications and secure APIs with Agile methodology. Let's connect and collaborate on the future of digital experiences!🌐
+        </p>
+        <!-- <p  style="text-align:justify;width: 65%;">    </p> -->
+
+        <div class="header-btns">
+          <a href="https://www.canva.com/design/DAF5pMlLZs8/zdL3mHgk90LYmXq8dNv__g/edit?utm_content=DAF5pMlLZs8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+            class="btn btn-cta">View My CV</a>
+          <a href="#work" class="btn btn-secondary">See my work</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="client">
+      <div class="container">
+        <!-- <h2 class="h2">Trusted by</h2> -->
+        <div class="logos">
+          <!-- Replace alt with client/company name and src attributes of images with path to relative img of client logo -->
+          <div class="logo-group">
+            <!-- <img
+                loading="lazy"
+                src="assets/images/trusted-by/stripe.svg"
+                alt="Ideacraft"
+                class="logo hide to-top"
+              />
+
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/datastax.svg"
+                alt="Golden grid"
+                class="logo"
+              />
+
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/coke.svg"
+                alt="Theia"
+                class="logo hide to-bottom"
+              /> -->
+          </div>
+          <div class="logo-group">
+            <!-- <img
+                loading="lazy"
+                src="assets/images/trusted-by/gm.svg"
+                alt="General motors"
+                class="logo hide to-top"
+              />
+
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/shares.svg"
+                alt="Chippy"
+                class="logo"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/shopify.svg"
+                alt="Shopify"
+                class="logo hide to-bottom"
+              /> -->
+          </div>
+          <div class="logo-group">
+            <!-- <img
+                loading="lazy"
+                src="assets/images/trusted-by/agency-elevation.svg"
+                alt="Agency elevation"
+                class="logo hide to-top"
+              /><img
+                loading="lazy"
+                src="assets/images/trusted-by/gitlab.svg"
+                alt="Ron jones"
+                class="logo"
+              /><img
+                loading="lazy"
+                src="assets/images/trusted-by/duolingo.svg"
+                alt="Mighty furniture's"
+                class="logo hide to-bottom"
+              /> -->
+          </div>
+          <div class="logo-group">
+            <!-- <img
+                loading="lazy"
+                src="assets/images/trusted-by/coyote.svg"
+                alt="Bulls eye"
+                class="logo hide to-top"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/astrato.svg"
+                alt="Chippy"
+                class="logo"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/mercado.svg"
+                alt="Fastlane"
+                class="logo hide to-bottom"
+              /> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work">
+      <div class="container">
+        <h2 class="h2" id="work">Selected Work</h2>
+        <div class="work-boxes">
+          <div class="work-box">
+            <div class="work-textbox">
+              <!-- Add your project title here -->
+              <h3 class="h3">MERN Stack Ecommerce(With Payment Integration )</h3>
+              <!-- Add small description of your project  -->
+              <p>Developing an e-commerce website using the MERN stack. The project includes integrating a MongoDB database for efficient data storage and leveraging the Stripe payment gateway for secure transactions. This hands-on experience showcases my proficiency in full-stack development and demonstrates my ability to integrate essential technologies for modern web applications.</p>
+              <!-- Add technologies you used to build the project -->
+              <ol class="work-technologies">
+                <details>
+                  <summary>Features</summary>
+                  <ul>
+                    <li><strong>User Authentication:</strong> Secure login and registration.</li>
+<li><strong>Product Listings:</strong> Display products with details and pricing.</li>
+<li><strong>Shopping Cart:</strong> Add products to cart and manage quantities.</li>
+<li><strong>Checkout:</strong> Seamless Payment processing with Stripe Payment Gateway.</li>
+<li><strong>Responsive Design:</strong> Optimized for desktop and mobile devices.</li>
+
+                  </ul>
+                </details>
+                <details>
+                  <summary>Stack Used</summary>
+                  <ul>
+                    <ul>
+                      <li><strong>Frontend:</strong> React.js, Bootstrap</li>
+                      <li><strong>Backend:</strong> Node.js, Express.js</li>
+                      <li><strong>Database:</strong> T-SQL (SQL Server)</li>
+                      <li><strong>Payment Gateway:</strong> Stripe</li>
+                  </ul>
+                  
+                  </ul>
+                </details>
+
+
+                <!-- <li>Gatsby</li>
+                  <li>SCSS</li>
+                  <li>MDX</li> -->
+              </ol>
+
+              <div class="work-links">
+                <!-- Add url of project in href attribute -->
+                <a href="https://github.com/Prasanna0o0/Ecommerce" target="_blank" rel="noopener"
+                  class="link">Explore this project</a>
+                <a href="https://github.com/Prasanna0o0/Ecommerce" target="_blank" rel="noopener" class="link">Live
+                  Android APK</a>
+
+                <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                <a href="https://github.com/Prasanna0o0/Ecommerce" target="_blank" rel="noopener" title="Source code">
+                  <!-- <img src="assets/images/ssd.png" alt="GitHub" loading="lazy" /> -->
+                </a>
+              </div>
+            </div>
+
+            <!-- Update img src and alt attribute  -->
+
+            <picture class="work-img">
+              <video controls>
+                <source src="assets/ecom.webm" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </picture>
+          </div>
+
+          <div class="work-box">
+            <div class="work-textbox">
+              <!-- Add your project title here -->
+              <h3 class="h3">Redbus (With Payment Integration) Ticket Booking</h3>
+              <!-- Add small description of your project  -->
+              <p class="work-text" style="text-align: justify;">This project is a full-stack application designed to facilitate bus ticket booking using React.js for the frontend, Node.js for the backend, and Stripe for secure payment processing. The backend utilizes T-SQL for efficient database management, ensuring robust performance and scalability.
+              </p>
+              <!-- Add technologies you used to build the project -->
+              <ol class="work-technologies">
+                <details>
+                  <summary>Features</summary>
+                  <ul>
+                      <li><strong>User Authentication:</strong> Secure login and registration.</li>
+                      <li><strong>Trip Booking:</strong> Browse available trips, select seats, and book tickets.</li>
+                      <li><strong>Payment Integration:</strong> Seamless checkout experience powered by Stripe.</li>
+                      <li><strong>Admin Dashboard:</strong> Manage trips, bookings, and user data.</li>
+                      <li><strong>Responsive Design:</strong> Optimized for usability across devices.</li>
+                  </ul>
+              </details>
+              
+              <details>
+                  <summary>Technologies Used</summary>
+                  <ul>
+                      <li><strong>Frontend:</strong> React.js, Bootstrap</li>
+                      <li><strong>Backend:</strong> Node.js, Express.js</li>
+                      <li><strong>Database:</strong> T-SQL (SQL Server)</li>
+                      <li><strong>Payment Gateway:</strong> Stripe</li>
+                  </ul>
+              </details>
+              
+
+                <!-- <li>Gatsby</li>
+                  <li>SCSS</li>
+                  <li>MDX</li> -->
+              </ol>
+
+              <div class="work-links">
+                <!-- Add url of project in href attribute -->
+                <a href="https://github.com/Prasanna0o0/redbus" target="_blank" rel="noopener"
+                  class="link">Explore this project</a>
+                <a href="https://github.com/Prasanna0o0/redbus" target="_blank" rel="noopener" class="link">Live
+                  Android APK</a>
+
+                <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                <a href="https://github.com/Prasanna0o0/redbus" target="_blank" rel="noopener" title="Source code">
+                  <!-- <img src="assets/images/ssd.png" alt="GitHub" loading="lazy" /> -->
+                </a>
+              </div>
+            </div>
+
+            <!-- Update img src and alt attribute  -->
+
+            <picture class="work-img">
+              <video controls>
+                <source src="assets/redbus.webm" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </picture>
+          </div>
+
+          <div class="work-box">
+            <div class="work-textbox">
+              <!-- Add your project title here -->
+              <h3 class="h3">Netflix Clone</h3>
+              <!-- Add small description of your project  -->
+              <p>This project is a clone of the popular streaming platform Netflix, built using the React and Node.js stack. It features a responsive user interface that mimics the Netflix layout, including functionalities for browsing movies, viewing details, and user authentication. The backend is powered by Node.js, providing RESTful APIs for fetching movie data and managing user sessions.</p>
+              <!-- Add technologies you used to build the project -->
+              <ol class="work-technologies">
+                <details>
+                  <summary>Features</summary>
+                  <ul>
+                      <li><strong>User Authentication:</strong> Secure login and registration.</li>
+                      <li><strong>Movie Dashboard:</strong> Manage movies, Series, and user data.</li>
+                      <li><strong>Responsive Design:</strong> Optimized for usability across devices.</li>
+                  </ul>
+              </details>
+              
+              <details>
+                  <summary>Technologies Used</summary>
+                  <ul>
+                      <li><strong>Frontend:</strong> React.js, Bootstrap</li>
+                      <li><strong>Backend:</strong> Node.js, Express.js</li>
+                      <li><strong>Database:</strong> MYSQL (SQL Server)</li>
+                  </ul>
+              </details>
+              
+
+
+                <!-- <li>Gatsby</li>
+                  <li>SCSS</li>
+                  <li>MDX</li> -->
+              </ol>
+
+              <div class="work-links">
+                <!-- Add url of project in href attribute -->
+                <a href="https://github.com/Prasanna0o0/NetflixClone" target="_blank" rel="noopener"
+                  class="link">Explore this project</a>
+                <!-- <a href="" target="_blank" rel="noopener" class="link">Live
+                  Android APK</a> -->
+
+                <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                <a href="https://github.com/Prasanna0o0/NetflixClone" target="_blank" rel="noopener" title="Source code">
+                  <!-- <img src="assets/images/ssd.png" alt="GitHub" loading="lazy" /> -->
+                </a>
+              </div>
+            </div>
+
+            <!-- Update img src and alt attribute  -->
+
+            <picture class="work-img">
+              <video controls>
+                <source src="assets/netflix.webm" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </picture>
+          </div>
+
+
+          <!-- <div class="work-box">
+            <div class="work-textbox">
+              <h3 class="h3">Unity Immserive experience in XR</h3>
+              <p class="work-text" style="text-align: justify;">
+                Unity Immersive Experience in XR" offers a captivating journey blending virtual reality (VR) and
+                augmented reality (AR) technologies. Immerse yourself in interactive environments, where reality and
+                digital elements seamlessly merge. Explore new dimensions of storytelling, gaming, and education through
+                Unity's versatile XR platform
+              </p>
+              <ol class="work-technologies">
+                <li>Unity(WebXR)</li>
+
+              </ol>
+              <div class="work-links">
+                <a href="#" target="_blank" rel="noopener" class="link">Explore this project</a>
+                <a href="https://prasannak.itch.io/unity-immserive-experience-in-xr" target="_blank" rel="noopener"
+                  class="link">Live Demo</a>
+
+                <a href="#" target="_blank" rel="noopener" title="Source code">
+                  <img src="assets/images/Screenshot 2024-04-08 174752.png" alt="GitHub" loading="lazy" />
+                </a>
+              </div>
+            </div>
+            <picture class="work-img">
+              <img loading="lazy" src="assets/images/Screenshot 2024-04-08 174752.png" alt="contribute dev" />
+             
+            </picture>
+          </div> -->
+
+          <div class="work-box">
+            <div class="work-textbox">
+              <!-- Add your project title here -->
+              <h3 class="h3"> Unity Immserive Zombie experience in XR </h3>
+              <!-- Add small description of your project  -->
+              <p class="work-text" style="text-align: justify;">
+                Immerse yourself in an electrifying mixed reality zombie experience built in Unity. With stunning
+                visuals and immersive gameplay, this game transports you to a post-apocalyptic world overrun by zombies.
+                Using cutting-edge mixed reality technology, players can engage with the game environment like never
+                before, dodging zombies and exploring the eerie landscape in real-time. Get ready for an
+                adrenaline-pumping adventure that blurs the lines between reality and virtuality, delivering an
+                unforgettable gaming experience.
+              <ol class="work-technologies">
+                <li>Unity(WebXR)</li>
+
+              </ol>
+              <div class="work-links">
+                <!-- Add url of project in href attribute -->
+
+
+                <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                <a href="#" target="_blank" rel="noopener" title="Source code">
+
+                </a>
+              </div>
+            </div>
+            <!-- Update img src and alt attribute  -->
+            <picture class="work-img">
+              <!-- <img
+                  loading="lazy"
+                  src="assets/images/Screenshot 2024-04-08 174752.png"
+                  alt="contribute dev"
+                /> -->
+              <video controls>
+                <source src="assets/zombie.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="skills">
+      <div class="container">
+        <h2 class="h2" id="skills">My Toolkit</h2>
+        <div class="skills-imgs">
+          <img src="assets/images/skills/react.webp" alt="React" class="skills-img" loading="lazy" title="React">
+          <!-- <img src="assets/images/c-sharp_6132221.png" alt="C#" class="skills-img" loading="lazy" title="C#"> -->
+          <img src="assets/images/skills/typescript.webp" alt="Typescript" class="skills-img" loading="lazy"
+            title="Typescript">
+          <img src="assets/images/skills/a11y.webp" alt="Accessibility" class="skills-img" loading="lazy"
+            title="Web Accessibility">
+          <img src="assets/images/skills/shell.webp" alt="Shell" class="skills-img" loading="lazy" title="Shell">
+          <img src="assets/images/skills/next-js.webp" alt="NextJS" class="skills-img" loading="lazy" title="NextJS">
+          <img src="assets/images/asdasd.png" alt="Graph Ql" class="skills-img" loading="lazy" title="WebXR">
+          <img src="assets/images/skills/git.webp" alt="Git" class="skills-img" loading="lazy" title="Git">
+          <img src="assets/images/skills/html.webp" alt="CSS" class="skills-img" loading="lazy" title="CSS">
+          <img src="assets/images/skills/js.webp" alt="JavaScript" class="skills-img" loading="lazy" title="JavaScript">
+          <img src="assets/images/openxr.png" alt="OpenXR" class="skills-img" loading="lazy" title="OpenXR">
+          <img src="assets/images/meta_6033716.png" alt="Meta SDKs" class="skills-img" loading="lazy" title="Meta SDKs">
+          <img src="assets/images/visual-basic_5968336.png" alt="VS Code" class="skills-img" loading="lazy"
+            title="VS Code">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Replace testimonials, author name, author job, img src and, alt attributes -->
+
+    <section class="contact">
+      <div class="container">
+        <h2 class="h2" id="contact">Send Message</h2>
+        <div class="contact-content">
+          <div class="contact-textbox">
+            <!-- Please comment this component if you're not available for hire -->
+            <strong href="#" class="hire-alert">
+              <span class="indicator"></span>
+              Available for hire
+            </strong>
+            <p class="contact-text">
+              As a software engineer, I construct web interfaces and design
+              systems with a special love for accessibility and the
+              performance. I tend to code things from scratch and enjoy
+              bringing ideas to life.
+            </p>
+            <p class="contact-text">
+              I'm also an open-source developer, and My journey as a software engineer has been marked by continuous
+              growth and learning 📈📚. I've gained proficiency in a range of technologies, and I'm excited to leverage
+              this experience to contribute to future projects and endeavors in the software development field 🚀👨‍💼
+            </p>
+            <!-- Replace src with your signatures and name -->
+
+          </div>
+          <form action="#" class="contact-form" netlify>
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" required />
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" required inputmode="email" />
+            </div>
+            <div class="form-field">
+              <label for="message">How can I help you?</label>
+              <textarea name="message" id="message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-cta">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <!-- Update href and src attributes -->
+        <nav>
+          <ol class="footer-links">
+            <li class="footer-link">
+              <a title="GitHub" href="https://github.com/Prasanna0o0" target="_blank" rel="noopener"><img loading="lazy"
+                  src="assets/images/social-links/github.svg" alt="GitHub" /></a>
+            </li>
+            <!-- <li class="footer-link">
+                <a title="Codepen" href="https://github.com/Prasanna0o0/webvr_stand_pro_desert" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/codepen.svg"
+                    alt="Codepen"
+                /></a>
+              </li> -->
+            <li class="footer-link">
+              <a title="Linkedin" href="www.linkedin.com/in/helloeverybuddy" target="_blank" rel="noopener"><img
+                  loading="lazy" src="assets/images/social-links/linkedin.svg" alt="Linkedin" /></a>
+            </li>
+            <li class="footer-link">
+              <a title="Twitter" href="https://github.com/Prasanna0o0" target="_blank" rel="noopener"><img
+                  loading="lazy" src="assets/images/social-links/twitter.svg" alt="Twitter" /></a>
+            </li>
+          </ol>
+        </nav>
+        <p class="footer-text">
+          &copy; <span>2024</span> - Template designed & developed by <a target="_blank" rel="noopener"
+            href="https://github.com/Prasanna0o0">Prasanna.</a>
+        </p>
+        <label class="theme-switch" for="theme-switch">
+          <span>Dark Theme</span>
+          <input type="checkbox" id="theme-switch" role="switch" />
+        </label>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
